@@ -5,11 +5,11 @@ In October 2018 on the mailing list python-ideas some developers encouraged me, 
 
 Goal:
 
- * Better type-hints in IDEs.
+* Better type-hints in IDEs.
  
 This is not the goal:
 
- * Type-hints which get used during run-time.
+* Type-hints which get used during run-time.
  
  
 Syntax Proposal
