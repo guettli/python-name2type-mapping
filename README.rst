@@ -15,17 +15,17 @@ This is not the goal:
 Syntax Proposal
 ===============
  
- The name2type mapping is defined in the docstring of a Python file.
+The name2type mapping is defined in the docstring of a Python file.
  
- The general syntax is "name2type:" followed by a comma sperated list of variable names. Then ":", then the type hint.
+The general syntax is "name2type:" followed by a comma sperated list of variable names. Then ":", then the type hint.
  
- Examples::
+Examples::
  
      """
      name2type: my_int, my_number, ....: int
      name2type: request*: django.http.HttpRequest
      """"
  
- If the docstring is in a file called `__init__.py`, then the type hints get specified for all files below this directory (recursively).
+If the docstring is in a file called `__init__.py`, then the type hints get specified for all files below this directory (recursively).
  
  
