@@ -1,5 +1,5 @@
 Python name2type mapping
-========================
+=========================
 
 In October 2018 on the mailing list python-ideas some developers encouraged me, that the idea of a name2type mapping would be usefull.
 
@@ -12,8 +12,8 @@ This is not the goal:
  * Type-hints which get used during run-time.
  
  
- Syntax Proposal
- ===============
+Syntax Proposal
+===============
  
  The name2type mapping is defined in the docstring of a Python file.
  
