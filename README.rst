@@ -29,3 +29,7 @@ Examples::
 If the docstring is in a file called `__init__.py`, then the type hints get specified for all files below this directory (recursively).
  
  
+ Misc
+ ====
+ 
+ * The name2type mapping is just a fall-back. First the IDE does the usual type detection and if no type could be found, then name2type mapping gets used. Except explicitly switched off. But this switch is not part of the spec. This is up to the IDE how to handle switching name2type on or off.
