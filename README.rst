@@ -37,6 +37,7 @@ Misc
 ====
  
 * The name2type mapping is just a fall-back. First the IDE does the usual type detection and if no type could be found, then name2type mapping gets used. Except explicitly switched off. But this switch is not part of the spec. 
+* Related issue at PyCharm: https://youtrack.jetbrains.com/issue/PY-32490
 
 Arguments against name2type mapping
 ===================================
