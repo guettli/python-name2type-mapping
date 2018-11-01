@@ -44,3 +44,9 @@ Arguments against name2type mapping
 * It is not needed since stats are enough. Example: If you code base contains a variable name "request" 100 times, and in 70 times the variable type is an instance of "django.http.HttpRequest" (detected by usual type-annotation), then it is redundant to specify this explicit in a file. The IDE (or code quality checking tool) could gather this information by looking at the stats.
 
 Above argument makes me unsure what the best solution looks like. Do an explicit name2type mapping, or leave it up to the stats. There are conflicting guidelines. The guidelines "less is more" and "avoid redundancy" on one side, and on the other side "explicit is better than implicit".
+
+Open questions
+==============
+
+* Use docstring or comment to store the name2type mapping. 
+* Is "Rough consensus and working code" enough, or do we need an official PEP?
