@@ -3,14 +3,18 @@ Python name2type mapping
 
 In October 2018 on the mailing list python-ideas some developers encouraged me, that the idea of a name2type mapping would be usefull.
 
-Goal:
+Goal
+====
 
-* Better type-hints in IDEs.
- 
-This is not the goal:
+Source code should be clean. Every character which is not needed for my eyes/brain to understand the code should not be on the screen.
 
-* Type-hints which get used during run-time.
- 
+Imagine you work on a Django project. Many methods will have the `request` as first argument. Every develop knows that I mean [django.http.HttpRequest](https://docs.djangoproject.com/en/4.0/ref/request-response/#httprequest-objects).
+
+So if my eyes and brain just need the string `request` to understand what this variable is, then there should be a way to
+for the interpreter/compiler to understand this, too.
+
+Since interpreter/compilers are not smart, we need a way to make them understand this "name to type mapping".
+
  
 Syntax Proposal
 ===============
