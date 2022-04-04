@@ -6,9 +6,9 @@ In October 2018 on the mailing list python-ideas some developers encouraged me, 
 
 Source code should be clean. Every character which is not needed for my eyes/brain to understand the code should not be on the screen.
 
-Imagine you work on a Django project. Many methods will have the `request` as first argument. Every develop knows that I mean [django.http.HttpRequest](https://docs.djangoproject.com/en/4.0/ref/request-response/#httprequest-objects).
+Imagine you work on a Django project. Many methods will have the `request` as first argument. Every django develop knows that I mean [django.http.HttpRequest](https://docs.djangoproject.com/en/4.0/ref/request-response/#httprequest-objects).
 
-So if my eyes and brain just need the string `request` to understand what this variable is, then there should be a way to
+So if my eyes and brain just need the string `request` to understand what this variable is, then there should be a way
 for the interpreter/compiler to understand this, too.
 
 Since interpreter/compilers are not smart, we need a way to make them understand this "name to type mapping".
