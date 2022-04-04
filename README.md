@@ -31,7 +31,7 @@ If the docstring is in a file called `__init__.py`, then the type hints get spec
  
 ## Use Case Example
 
-Your code base contains a variable name "request" 100 times, and in 70 times the variable type is an instance of "django.http.HttpRequest" (detected by usual type annotations). If you want to have valid type information of all occurences of "request" in your code, then you need to find a solution for 30 usages. You could annotate the variable in your code 30 times (once per method). Or you could define a name2type mapping in the __init__.py file if your code.
+Your code base contains a variable name "request" 100 times, and in 70 times the variable type is an instance of "django.http.HttpRequest" (detected by usual type annotations). If you want to have valid type information of all occurences of "request" in your code, then you need to find a solution for 30 usages. You could annotate the variable in your code 30 times (once per method). Or you could define a name2type mapping in the `__init__.py` file if your code.
  
 ## Misc
  
